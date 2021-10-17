@@ -1,13 +1,11 @@
 package com.x.Service;
 
-import com.x.Model.Product;
 import com.x.Model.User;
 import com.x.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 @Service

@@ -29,4 +29,9 @@ public class ProductController {
         List<Product> updateproduct= productService.updateProduct(productUpdate);
         return updateproduct;
     }
+    @PostMapping("/search")
+    public List<Product> searchProd(@RequestBody String searchString){
+        List<Product> searchproduct= productService.searchProduct(searchString);
+        return searchproduct;
+    }
 }

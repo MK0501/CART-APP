@@ -11,65 +11,67 @@ import javax.persistence.Table;
 @Table(name="product")
 @Entity
 public class Product {
-    @Id
+
+@Id
     @Column(name="product_id")
-    private String product_id;
+    private String productId;
     @Column(name="product_name")
-    private String product_name;
+    private String productName;
     @Column(name="product_price")
-    private String product_price;
+    private String productPrice;
     @Column(name="in_stock")
-    private String in_stock;
+    private String inStock;
     @Column(name="product_category_id")
-    private String product_category_id;
+    private String productCategoryId;
     @Column(name="product_category_name")
-    private String getProduct_category_name;
+    private String getProductCategoryName;
 
-    public String getProduct_id() {
-        return product_id;
-    }
+public String getProductId() {
+    return productId;
+}
 
-    public void setProduct_id(String product_id) {
-        this.product_id = product_id;
-    }
+public void setProductId(String productId) {
+    this.productId = productId;
+}
 
-    public String getProduct_name() {
-        return product_name;
-    }
+public String getProductName() {
+    return productName;
+}
 
-    public void setProduct_name(String product_name) {
-        this.product_name = product_name;
-    }
+public void setProductName(String productName) {
+    this.productName = productName;
+}
 
-    public String getProduct_price() {
-        return product_price;
-    }
+public String getProductPrice() {
+    return productPrice;
+}
 
-    public void setProduct_price(String product_price) {
-        this.product_price = product_price;
-    }
+public void setProductPrice(String productPrice) {
+    this.productPrice = productPrice;
+}
 
-    public String getIn_stock() {
-        return in_stock;
-    }
+public String getInStock() {
+    return inStock;
+}
 
-    public void setIn_stock(String in_stock) {
-        this.in_stock = in_stock;
-    }
+public void setInStock(String inStock) {
+    this.inStock = inStock;
+}
 
-    public String getProduct_category_id() {
-        return product_category_id;
-    }
+public String getProductCategoryId() {
+    return productCategoryId;
+}
 
-    public void setProduct_category_id(String product_category_id) {
-        this.product_category_id = product_category_id;
-    }
+public void setProductCategoryId(String productCategoryId) {
+    this.productCategoryId = productCategoryId;
+}
 
-    public String getGetProduct_category_name() {
-        return getProduct_category_name;
-    }
+public String getGetProductCategoryName() {
+    return getProductCategoryName;
+}
 
-    public void setGetProduct_category_name(String getProduct_category_name) {
-        this.getProduct_category_name = getProduct_category_name;
-    }
+public void setGetProductCategoryName(String getProductCategoryName) {
+    this.getProductCategoryName = getProductCategoryName;
+}
+
 }
